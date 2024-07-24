@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 21px;
+}
+
+nav {
+    background-color: #272C3D;
+    height: 70px;
+}
+
+.nav-row {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Quantico", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.6px;
+}
+.nav-input input {
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #404864;
+    border: none;
+}
+.nav-select select {
+    width: 130px;
+    background-color: #00000080;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+.nav-input img {
+    position: absolute;
+    right: 5px;
+}
+.nav-input {
+    position: relative;
+}
+ul li a:hover {
+    color: #FF9C28;
+}
+.hero {
+    background-image: url(img/Bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%px;
+    height: 580px;
+}
+.hero h2 {
+    font-family: "Quantico", sans-serif;
+    font-size: 24px;
+    color: white;
+    padding-left: 120px;
+    font-weight: 400;
+    line-height: 34.32px;
+}
+.hero h3 {
+    font-family: "Quantico", sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.32px;
+}
+.hero-players {
+    padding-top: 510px;
+    padding-left: 440px;
+}
+.hero-row h1{
+    font-family: "Quantico", sans-serif;
+    padding-left: 280px;
+    padding-top: 35px;
+    font-size: 32px;
+    color: white;
+    font-weight: 400;
+    line-height: 45.76px;
+}
+.hero-row {
+    background-color: black ;
+    padding-left: 200px;
+}
+
+.hero-2 {
+    background-color: #1B1E27;
+}
+
+.hero-2 h2 {
+    color: white;
+    margin-top: 270px;
+    font-family: "Quantico", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 75px;
+    margin-bottom: 30px;
+    line-height: 34.32px;
+}
+.hero-right p {
+    width:500px;
+    font-family: "Quantico", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 27.02px;
+    color: white;
+}
+
+.hero-info {
+    display: flex;
+    text-align: center;
+    gap: 17px;
+    justify-content: center;
+}
+.hero-left img {
+    width: 600px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background-color: #272C3D;
+}
